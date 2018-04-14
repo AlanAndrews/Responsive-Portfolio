@@ -218,10 +218,12 @@ input[type=submit] {
 
 /* MEDIA QUERIES */
 
+/* I did something to make the media queries stop working. I started with the 680px media query and got that one to work, but when I started working on the other ones, it stopped working. not sure if html not linkking correctly or if there is a syntax error I'm not seeing. */
+
 /* @media screen and (max-width: 980px){ */
    .container{
     float: left;
-    width: 50%;
+    width: 100%;
   }
 
   .work{
@@ -234,16 +236,16 @@ input[type=submit] {
   }
   }
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
   #logo{
     position: fixed;
     left: 20px;
 }
   nav{
     padding: 16px;
-  } */
-/* The 640px media query had been working, but stopped and I was not able to get it to work again. When I delete the media query the CSS code makes the site display as expected. */
- /* @media screen and (max-width: 640px) { 
+  }
+
+ @media screen and (max-width: 640px) { 
  #masthead{
   position: static;
  }
@@ -267,4 +269,4 @@ input[type=submit] {
  nav a{
     width: 30%;
  }
-} */
+}
